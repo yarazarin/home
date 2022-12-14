@@ -57,9 +57,9 @@
   min-width: 10.8rem;
 }
 
-
 @media screen and (max-width: 768px) {
   .quiz {
+    top: 4rem;
     width: 100%;
     display: flex;
     text-align: center;

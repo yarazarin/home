@@ -98,6 +98,7 @@
 
 @media screen and (max-width: 768px) {
   .card-container {
+    top: 4rem;
     width: 100%;
     display: flex;
     text-align: center;

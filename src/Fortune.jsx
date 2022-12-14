@@ -8,7 +8,7 @@ const Fortune = () => {
   return (
     <>
       <BackToHomeBTN />
-      <UrHere pageName="Things_Demo_Website" />
+      <UrHere pageName="Fortune_Demo_Website" />
       <Iching />
       <Gap />
       <Gap />
