@@ -1,0 +1,50 @@
+.diary-container {
+  top: 2rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 40px;
+  background-color: rgba(0, 255, 13, 0.679);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.555);
+  min-height: 64.5vh;
+  position: relative;
+}
+
+.diary-input {
+  font-size: 20px;
+  font-family: Handlee;
+  padding: 25px;
+  width: 100%;
+  min-height: 50.5vh;
+  max-height: 64.5vh;
+  background-image: url("./Dream.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.diary-btn {
+  margin: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 700;
+  color: #313133;
+  background: #4f51d1;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.547) 0%,
+    rgb(255, 255, 255) 100%
+  );
+  border-bottom: #000000 solid 1px;
+  border-radius: 5px;
+  box-shadow: 1px 12px 24px rgba(0, 0, 0, 0.64);
+  transition: all 0.3s ease-in-out 0s;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  padding: 8px;
+  min-width: 10.8rem;
+}
+

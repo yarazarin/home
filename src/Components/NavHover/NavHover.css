@@ -1,0 +1,51 @@
+.nav-hover {
+  display: flex;
+  font-size: 16px;
+  position: absolute;
+  text-align: center;
+  z-index: 777;
+}
+
+.nav-hover ul ul {
+  width: 120px;
+  display: none;
+  font-size: 1.3rem;
+  padding: 0px;
+  position: absolute;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.nav-hover ul li:hover > ul {
+  display: block;
+}
+
+.nav-hover ul li {
+  background: linear-gradient(0deg, #001c2d, rgba(255, 255, 255, 0.358));
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-left: 10px;
+  width: 120px;
+  float: left;
+  font-size: 1.5em;
+  font-family:'Times New Roman', Times, serif;
+}
+.nav-hover ul li:hover {
+  background-color: rgba(0, 0, 0, 0.199);
+}
+
+.nav-hover ul li a {
+  color: white;
+}
+
+.nav-hover ul ul li {
+  background: linear-gradient(0deg, #00044e85, rgba(255, 255, 255, 0));
+  margin-left: 0px;
+  float: none;
+  position: relative;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 7px;
+  color: rgba(243, 235, 235, 0.518);
+  font-size: 0.8em;
+}

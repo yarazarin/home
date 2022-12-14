@@ -1,0 +1,58 @@
+.NavBar {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  width: 70%;
+  left: 15%;
+  right: 15%;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0.438)
+  );
+  border-radius: 15px;
+  height: 20rem;
+}
+.navbar-buttons {
+  display: flex;
+  position: inherit;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  top: 50px;
+}
+
+@media screen and (max-width: 968px) {
+  .NavBar {
+    height: 17rem;
+    margin-bottom: 3rem;
+    width: 100%;
+    left: 0%;
+    right: 0%;
+    background-image: linear-gradient(
+      rgba(255, 255, 255, 0.658),
+      rgba(255, 255, 255, 0)
+    );
+    border-radius: 0px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .navbar-buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: minmax(100px, auto) minmax(100px, auto) minmax(
+        100px,
+        auto
+      );
+  }
+}
+@media screen and (max-width: 480px) {
+  .NavBar {
+    flex-direction: column;
+  }
+
+  .navbar-buttons {
+    top: 50px;
+  }
+}

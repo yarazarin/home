@@ -1,0 +1,50 @@
+html {
+  margin: 0px;
+  padding: 0px;
+  min-height: 100vh;
+}
+
+body {
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  min-height: 100vh;
+  background-image: url("https://images.unsplash.com/photo-1571292098320-997aa03a5d19?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Handlee";
+  font-size: 20px;
+  flex-direction: column;
+}
+
+* {
+  list-style: none;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+button {
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+} */
+@font-face {
+  font-family: Handlee;
+  src: url(./Assets/Fonts/Handlee-Regular.ttf);
+}
+@font-face {
+  font-family: "Rubik Marker Hatch";
+  src: url(./Assets/Fonts/RubikMarkerHatch-Regular.ttf);
+}

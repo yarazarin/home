@@ -1,0 +1,26 @@
+.content-image {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  left: 2%;
+  width: 85%;
+  color: white;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+  font-size: 1rem;
+}
+
+.img_dis {
+  left: 1.1rem;
+}
+.img_dis a img {
+  position: relative;
+  border-bottom: rgba(0, 0, 0, 0.618) 1.6rem solid;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.img_dis a span {
+  position: relative;
+  bottom: 2rem;
+}

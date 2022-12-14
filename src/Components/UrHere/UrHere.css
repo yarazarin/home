@@ -1,0 +1,20 @@
+.urhere {
+  display: flex;
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  justify-content: center;
+  line-height: 0%;
+  top: 30px;
+  z-index: -777;
+}
+
+.urhere {
+  color: rgba(0, 0, 0, 0.39);
+  font-family: "Rubik Marker Hatch";
+  height: min-content;
+  padding: 0px;
+  border: 0px;
+  margin: 0px;
+  font-size: .8rem;
+}

@@ -1,0 +1,227 @@
+.resume-hamber {
+  display: none;
+}
+
+.resume-container {
+  background-color: #1a9fe7be;
+  display: flex;
+  position: relative;
+  max-width: 70%;
+  margin-right: 15%;
+  margin-left: 15%;
+  border-radius: 20px;
+  box-shadow: 0px 3px 5px rgb(0 0 0);
+  height: 500px;
+}
+
+.resume-container .btn {
+  position: absolute;
+  left: 2rem;
+}
+.resume-container .nav-hover {
+  right: 25px;
+  top: -10px;
+}
+.my-img {
+  opacity: 1;
+  position: absolute;
+  border-radius: 50%;
+  width: 280px;
+  left: 30%;
+  margin-top: 45px;
+  box-shadow: #000000 0px 4px 15px;
+  transition: 0.5s;
+}
+.name-resume h1 {
+  left: -10px;
+  position: absolute;
+  color: white;
+}
+.circles {
+  position: absolute;
+  top: 90px;
+  left: 40px;
+}
+.name-resume {
+  position: relative;
+  left: 21rem;
+  top: 100px;
+  font-family: "Handlee";
+  color: rgb(255, 255, 255);
+  font-size: 1.7em;
+  width: 330px;
+  text-shadow: #0b0b0b 2px 2px 2px;
+}
+
+.quote-work {
+  font-size: 0.47em;
+  position: absolute;
+  top: 100px;
+}
+
+.circle-one,
+.circle-two,
+.circle-three {
+  font-weight: 800;
+  font-size: 1em;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  color: rgb(255, 255, 255);
+  background: linear-gradient(120deg, #63557d4d, rgba(68, 0, 253, 0.445));
+  border: 6px solid rgba(255, 255, 255, 0.864);
+  position: absolute;
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  margin-top: 200px;
+  margin-left: 0px;
+  transition: 0.2s;
+}
+.circle-one {
+  left: 300px;
+}
+.circle-two {
+  left: 400px;
+}
+.circle-three {
+  left: 500px;
+}
+
+:where(.circle-one, .circle-two, .circle-three):hover {
+  background: none;
+  background-color: rgba(0, 21, 255, 0.427);
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 1023px) {
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 960px) {
+  .resume-main .urhere{
+    top: 70px;
+  }
+  .NavbarItems {
+    display: none;
+  }
+  .resume-hamber {
+    display: block;
+  }
+  .resume-btn {
+    display: none;
+  }
+  .resume-container .nav-hover {
+    display: none;
+  }
+  .resume-container .btn {
+    display: none;
+  }
+  .resume-container {
+    height: 300px;
+    width: 100%;
+    margin-top: 0%;
+    max-width: 100%;
+    margin-right: 0%;
+    margin-left: 0%;
+    border-radius: 0%;
+  }
+
+  .name-resume {
+    left: 260px;
+    font-size: 20px;
+    padding-left: 0rem;
+    width: 220px;
+    top: 20px;
+  }
+  .quote-work {
+    font-size: 0.8em;
+    top: 60px;
+  }
+  .my-img {
+    top: -100px;
+    left: -1.5rem;
+    width: 220px;
+  }
+  .circle-one,
+  .circle-two,
+  .circle-three {
+    margin-top: 5rem;
+    margin-left: 200px;
+    width: 70px;
+    height: 70px;
+    font-size: 1rem;
+    border: 3px solid;
+  }
+  .circle-one {
+    left: 0px;
+  }
+  .circle-two {
+    left: 75px;
+  }
+  .circle-three {
+    left: 150px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .resume-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    top: -60px;
+    background-color: none;
+    height: 0px;
+  }
+  .my-img {
+    width: 320px;
+    margin-top: 45px;
+    box-shadow: #000000 0px 4px 15px;
+    transition: 0.5s;
+    left: 30%;
+    z-index: -777;
+    filter: blur(3px);
+  }
+  .name-resume h1 {
+    display: flex;
+    top: -30px;
+    position: absolute;
+    color: white;
+    left: 60px;
+  }
+
+  .circle-one,
+  .circle-two,
+  .circle-three {
+    width: 90px;
+    height: 90px;
+    margin-top: 165px;
+    margin-left: 20px;
+  }
+  .circle-one {
+    left: 0px;
+  }
+  .circle-two {
+    left: 100px;
+  }
+  .circle-three {
+    left: 200px;
+  }
+
+  .name-resume {
+    align-items: center;
+    top: 350px;
+    left: -1%;
+    position: relative;
+    font-family: "Handlee";
+    color: rgb(255, 255, 255);
+    font-size: 1.2em;
+    width: 330px;
+    text-shadow: #0b0b0b 2px 2px 2px;
+  }
+}

@@ -1,0 +1,109 @@
+.card-container {
+  top: 2rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 40px;
+  background-color: rgba(212, 255, 0, 0.679);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.555);
+  min-height: 64.5vh;
+  position: relative;
+}
+
+.i-ching div {
+  display: flex;
+  font-size: 2em;
+}
+
+.cardImg {
+  height: 300px;
+  width: 200px;
+  border-radius: 1rem;
+}
+
+.i-ching-btn {
+  margin: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 700;
+  color: #313133;
+  background: #4f51d1;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.547) 0%,
+    rgb(255, 255, 255) 100%
+  );
+  border-bottom: #000000 solid 1px;
+  border-radius: 5px;
+  box-shadow: 1px 12px 24px rgba(0, 0, 0, 0.64);
+  transition: all 0.3s ease-in-out 0s;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  padding: 8px;
+  min-width: 10.8rem;
+}
+.randNum {
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+}
+
+.i-ching-btn:hover,
+.i-ching-btn:focus {
+  color: #313133;
+  transform: translateY(-6px);
+}
+
+.i-ching-btn:hover::before,
+.i-ching-btn:focus::before {
+  opacity: 1;
+}
+
+.i-ching-btn::after {
+  content: "";
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  border: 6px solid #ffffff99;
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: ring 1.5s infinite;
+}
+
+.i-ching-btn:hover::after,
+.i-ching-btn:focus::after {
+  animation: none;
+  display: none;
+}
+
+@keyframes ring {
+  0% {
+    width: 30px;
+    height: 30px;
+    opacity: 1;
+  }
+  100% {
+    width: 300px;
+    height: 300px;
+    opacity: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .card-container {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    border-radius: 0px;
+  }
+}
