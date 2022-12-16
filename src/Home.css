@@ -10,6 +10,6 @@
 .main-home .top-nav button{
   display: none;
 }
-.top-nav{
+.main-home .top-nav{
   justify-content: end;
 }
