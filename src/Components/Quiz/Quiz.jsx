@@ -15,7 +15,12 @@ const Quiz = () => {
   };
 
   const survey = new Model(QuizData);
-  return <Survey model={survey} className="quiz" />;
+
+  return (
+    <>
+      <Survey model={survey} className="quiz" />
+    </>
+  );
 };
 
 export default Quiz;

@@ -1,7 +1,8 @@
-import NavBtn from "../NavBtn/NavBtn";
 import "./HamberMenu.css";
 import { Link } from "react-router-dom";
-const HamberMenu = () => {
+
+const HamberMenu = ({products}) => {
+
   return (
     <section className="top-nav">
       <button className="top-nav-backtohome">
@@ -12,9 +13,15 @@ const HamberMenu = () => {
         <div className="menu-button"></div>
       </label>
       <ul className="menu">
-        <li>Contact</li>
-        <li>SocialMedia</li>
-        <li>Next</li>
+        <li>
+          <Link to="/HelpPage">Contact Me</Link>
+        </li>
+        <li>
+          <Link to="/HelpPage">Social Media</Link>
+        </li>
+        <li>
+          <Link to="/HelpPage">Help</Link>
+        </li>
       </ul>
     </section>
   );

@@ -2,8 +2,8 @@ export const QuizData = {
   title: "Q u i z ! !",
   showProgressBar: "bottom",
   showTimerPanel: "top",
-  maxTimeToFinishPage: 10000000,
-  maxTimeToFinish: 30,
+  maxTimeToFinishPage: 10,
+  maxTimeToFinish: 20,
   firstPageIsStarted: true,
   startSurveyText: "I AM READY !!",
   pages: [

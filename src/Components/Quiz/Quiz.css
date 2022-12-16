@@ -56,6 +56,39 @@
   bottom: 0px;
   min-width: 10.8rem;
 }
+.redresh_div{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  
+}
+.refresh_btn {
+  margin: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 700;
+  color: #313133;
+  background: #4f51d1;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.547) 0%,
+    rgb(255, 255, 255) 100%
+  );
+  border: none;
+  border-bottom: #000000 solid 1px;
+  border-radius: 5px;
+  box-shadow: 1px 12px 24px rgba(0, 0, 0, 0.64);
+  transition: all 0.3s ease-in-out 0s;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  padding: 8px;
+  bottom: 15px;
+  min-width: 10.8rem;
+display: block;
+
+
+}
 
 @media screen and (max-width: 768px) {
   .quiz {
