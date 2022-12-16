@@ -20,7 +20,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  top: 50px;
+
 }
 
 @media screen and (max-width: 968px) {
@@ -45,14 +45,12 @@
         100px,
         auto
       );
+      top: 145px;
   }
 }
 @media screen and (max-width: 480px) {
   .NavBar {
     flex-direction: column;
-  }
 
-  .navbar-buttons {
-    top: 50px;
   }
 }
