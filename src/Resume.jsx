@@ -1,6 +1,5 @@
 import React from "react";
 import doll from "./Assets/img/doll.jpg";
-import NavBtn from "./Components/NavBtn/NavBtn";
 import Footer from "./Components/Footer/Footer";
 import "./Resume.css";
 import UrHere from "./Components/UrHere/UrHere";

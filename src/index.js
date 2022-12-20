@@ -10,6 +10,7 @@ import Fortune from "./Fortune";
 import ShortenerLink from "./ShortenerLink";
 import DearDiary from "./DearDiary";
 import HelpPage from "./HelpPage";
+import GahNameh from "./GahNameh";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -24,6 +25,7 @@ root.render(
         <Route exact path="/ShortenerLink" component={ShortenerLink} />
         <Route exact path="/DearDiary" component={DearDiary} />
         <Route exact path="/HelpPage" component={HelpPage} />
+        <Route exact path="/GahNameh" component={GahNameh} />
       </Switch>
     </HashRouter>
   </div>
