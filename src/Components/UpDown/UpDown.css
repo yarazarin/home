@@ -38,13 +38,14 @@
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 780px) {
   .up-down h4 {
     top: 120px;
     font-size: 1.2rem;
   }
   .question {
     z-index: 999;
+    top: 130px;
   }
 
   @keyframes shimmy {

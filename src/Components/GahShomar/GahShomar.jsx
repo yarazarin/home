@@ -17,7 +17,6 @@ const GahShomar = () => {
     <div className="gahhomar-container">
       <div className="gah-row">{date.toLocaleDateString("fa-IR", option)} باستانی </div>
       <Clock className="gah-row-clock" format={"HH:mm:ss"} ticking={true} />
-      <></>
     </div>
   );
 };

@@ -20,12 +20,12 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-
 }
 
 @media screen and (max-width: 968px) {
   .NavBar {
-    height: 17rem;
+
+    height: 10rem;
     margin-bottom: 3rem;
     width: 100%;
     left: 0%;
@@ -40,12 +40,13 @@
 @media screen and (max-width: 768px) {
   .navbar-buttons {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: minmax(100px, auto) minmax(100px, auto) minmax(
         100px,
         auto
       );
       top: 145px;
+      
   }
 }
 @media screen and (max-width: 480px) {

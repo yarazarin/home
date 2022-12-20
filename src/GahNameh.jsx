@@ -5,9 +5,9 @@ import UrHere from "./Components/UrHere/UrHere";
 
 const GahNameh = () => {
   return (
-    <div>
+    <div className="gah-n">
       <BackToHomeBTN />
-      <UrHere pageName="زن زندگی آزادی" />
+      <UrHere pageName="Ancient_Persian_Calendar_Demo_Website" />
       <GahShomar />
       <Footer />
     </div>

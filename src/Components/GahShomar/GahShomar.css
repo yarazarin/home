@@ -1,4 +1,5 @@
 .gahhomar-container {
+  background-image:radial-gradient(red,rgb(255, 217, 0));
   top: 2rem;
   display: flex;
   flex-direction: column;
@@ -11,7 +12,6 @@
   box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.555);
   min-height: 64.5vh;
   position: relative;
-  background-image: url("./sk.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   z-index: -1;
@@ -31,10 +31,7 @@
   color: aliceblue;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-@media screen and (max-width: 980px) {
-  .gahhomar-container {
-    background-image: url("./sk.jpg");
-  }
+
   @media screen and (max-width: 768px) {
     .gahhomar-container {
       top: 4rem;
@@ -47,14 +44,16 @@
       border-radius: 0px;
     }
   }
-  @media screen and (max-width: 680px) {
-    .gahhomar-container {
-      background-image: url("./sk3.jpg");
-    }
+
+
+  .gah-n .bth-con #gooey-button {
+    background-color: #970df3b7;
+
   }
-  @media screen and (max-width: 480px) {
-    .gahhomar-container {
-      background-image: url("./sk1.jpg");
-    }
+  .gah-n .bth-con #gooey-button .bubbles .bubble {
+    background-color: #970df3b7;
   }
-}
+
+  .gah-n .bth-con #water-d {
+    display: none;
+  }
