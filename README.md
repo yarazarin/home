@@ -8,4 +8,4 @@ npm install --save react react-live-clock
 
 npm install -g tar@latest
 
-need FontAwesome cdn
+need FontAwesome
