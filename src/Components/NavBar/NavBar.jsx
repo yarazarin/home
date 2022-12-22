@@ -1,5 +1,6 @@
 import NavBtn from "../NavBtn/NavBtn";
 import "./NavBar.css";
+
 const NavBar = () => {
   return (
     <div className="NavBar">
