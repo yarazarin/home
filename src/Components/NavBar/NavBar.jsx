@@ -12,7 +12,7 @@ const NavBar = () => {
         <NavBtn title="Short Link" goto="/ShortenerLink" />
         <NavBtn title="Dear Diary!" goto="/DearDiary" />
         <NavBtn title="Persian Calendar" goto="/GahNameh" />
-        <NavBtn title="Soon!" goto="/HelpPage" />
+        <NavBtn title="Calculator" goto="/Calculator" />
       </div>
     </div>
   );
