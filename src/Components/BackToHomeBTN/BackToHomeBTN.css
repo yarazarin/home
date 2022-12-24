@@ -29,9 +29,11 @@ svg {
   background-color: #0d7cf3b7;
   box-shadow: 0px 1px 5px rgb(0, 0, 0);
 }
-#gooey-button:focus {
-  outline: none;
+#gooey-button span{
+  position: relative;
+  z-index: 999;
 }
+
 #gooey-button .bubbles {
   position: absolute;
   top: 0;

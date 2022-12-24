@@ -1,6 +1,6 @@
 .gahhomar-container {
   background-image:radial-gradient(red,rgb(255, 217, 0));
-  top: 2rem;
+  top: 4.5rem;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -14,27 +14,26 @@
   position: relative;
   background-repeat: no-repeat;
   background-size: cover;
-  z-index: -1;
 }
 
 .gah-row {
   text-shadow: -1px -1px 0 #000, 2px -1px 0 #000, -1px 2px 0 #000,
     1px 1px 0 #000;
   color: white;
-  font-size: 5rem;
+  font-size: 4rem;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 .gah-row-clock {
   text-shadow: -1px -1px 0 #000, 2px -1px 0 #000, -1px 2px 0 #000,
     1px 1px 0 #000;
-  font-size: 5rem;
+  font-size: 6rem;
   color: aliceblue;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
   @media screen and (max-width: 768px) {
     .gahhomar-container {
-      top: 4rem;
+      top: 6rem;
       width: 100%;
       display: flex;
       text-align: center;

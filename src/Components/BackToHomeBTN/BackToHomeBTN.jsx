@@ -24,7 +24,7 @@ const BackToHomeBTN = () => {
       </svg>
       <Link to="/">
         <button id="gooey-button">
-          Back To Home
+          <span>Back To Home</span>
           <span class="bubbles">
             <span class="bubble"></span>
             <span class="bubble"></span>
