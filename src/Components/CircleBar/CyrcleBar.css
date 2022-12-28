@@ -1,120 +1,125 @@
+.circle-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+}
+.circle-container .rounded-container label {
+  top: 60px;
+  left: 10px;
+  position: relative;
+  z-index: 1;
+  font-size: 3rem;
+  color: rgba(253, 38, 38, 0.714);
+  box-shadow: 0px 15px 0px 0px rgba(0, 0, 0, 0.395);
+  border-bottom-right-radius: 25%;
+  border-bottom-left-radius: 25%;
+}
+
+.rounded-childes button a h6 {
+  font-size: 11px;
+}
+
 .rounded-container {
   display: none;
-  position: relative;
-  top: 140px;
 }
-.rounded-childes,
-.rounded_t,
-.rounded_t + form {
+
+.rounded-childes {
   position: absolute;
-  top: 0;
+  top: 20px;
   bottom: 0;
   left: 0;
   right: 0;
   margin: auto;
   display: block;
 }
-.rounded_t {
+
+#BB {
+  display: inherit;
+  position: relative;
+  opacity: 1;
+  bottom: 2000px;
   width: 40px;
   height: 40px;
-  z-index: 9999;
-  opacity: 0;
+  z-index: 1;
   cursor: pointer;
 }
-.rounded_t:checked + form {
-  background: 0 0;
+
+#BB:checked ~ label::before {
+  color: rgb(255, 255, 255);
+  content: "";
+  font-size: 3rem;
 }
-.rounded_t:checked + form:before {
-  transform: rotate(45deg) translateY(-15px) translateX(-15px);
-}
-.rounded-childes:nth-child(2) a,
-.rounded_t:checked + form:after {
-  transform: rotate(-45deg);
+.roundedul {
+  position: absolute;
 }
 .rounded_t:checked ~ ul .rounded-childes {
   opacity: 1;
 }
+
+.rounded-childes:nth-child(2) a {
+  transform: rotate(-45deg);
+}
+
 .rounded_t:checked ~ ul .rounded-childes:first-child {
-  transform: rotate(0) translate(-90px);
-  top: -20px;
+  transform: rotate(0) translate(-89px);
 }
 .rounded_t:checked ~ ul .rounded-childes:nth-child(2) {
-  transform: rotate(45deg) translateX(-90px);
-  top: -20px;
+  transform: rotate(45deg) translateX(-89px);
 }
 .rounded_t:checked ~ ul .rounded-childes:nth-child(3) {
-  transform: rotate(90deg) translateX(-90px);
-  top: -20px;
+  transform: rotate(90deg) translateX(-89px);
 }
 .rounded_t:checked ~ ul .rounded-childes:nth-child(4) {
-  transform: rotate(135deg) translateX(-90px);
-  top: -20px;
+  transform: rotate(135deg) translateX(-89px);
 }
 .rounded_t:checked ~ ul .rounded-childes:nth-child(5) {
-  transform: rotate(180deg) translateX(-90px);
-  top: -20px;
+  transform: rotate(180deg) translateX(-89px);
 }
 .rounded_t:checked ~ ul .rounded-childes:nth-child(6) {
-  transform: rotate(225deg) translateX(-90px);
-  top: -20px;
+  transform: rotate(225deg) translateX(-89px);
 }
+
 .rounded_t:checked ~ ul .rounded-childes:nth-child(7) {
-  transform: rotate(270deg) translateX(-90px);
-  top: -20px;
+  transform: rotate(270deg) translateX(-89px);
 }
+
 .rounded_t:checked ~ ul .rounded-childes:nth-child(8) {
-  transform: rotate(315deg) translateX(-90px);
-  top: -20px;
+  transform: rotate(315deg) translateX(-89px);
 }
+
 .rounded_t:checked ~ ul .rounded-childes a {
   pointer-events: auto;
 }
+
 .rounded-childes:first-child a {
   transform: rotate(0);
 }
+
 .rounded-childes:nth-child(3) a {
   transform: rotate(-90deg);
 }
+
 .rounded-childes:nth-child(4) a {
   transform: rotate(-135deg);
 }
+
 .rounded-childes:nth-child(5) a {
   transform: rotate(-180deg);
 }
+
 .rounded-childes:nth-child(6) a {
   transform: rotate(-225deg);
 }
+
 .rounded-childes:nth-child(7) a {
   transform: rotate(-270deg);
 }
+
 .rounded-childes:nth-child(8) a {
   transform: rotate(-315deg);
-}
-
-.rounded_t + form {
-  width: 40px;
-  height: 7px;
-  z-index: 1;
-  border-radius: 2.5px;
-  background: white;
-}
-.rounded_t + form:after,
-.rounded_t + form:before {
-  width: 40px;
-  height: 7px;
-  z-index: 1;
-  border-radius: 2.5px;
-  background: white;
-  content: "";
-  position: absolute;
-  display: block;
-  left: 0;
-}
-.rounded_t + form:before {
-  top: 10px;
-}
-.rounded_t + form:after {
-  top: -10px;
 }
 
 .rounded-childes {
@@ -123,6 +128,7 @@
   opacity: 0;
   transition: 0.5s;
 }
+
 .rounded-childes a {
   display: block;
   width: 60px;
@@ -136,10 +142,11 @@
   font-size: 20px;
   pointer-events: none;
   transition: 0.2s;
-  box-shadow: 0 0 0 5px rgb(255, 255, 255);
+  box-shadow: 0 0 0 5px rgba(255, 255, 255, 0.425);
 }
+
 @media screen and (max-width: 968px) {
   .rounded-container {
-    display: flex;
+    display: unset;
   }
 }

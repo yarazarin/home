@@ -1,5 +1,5 @@
 .gahhomar-container {
-  background-image:radial-gradient(red,rgb(255, 217, 0));
+  background-image:radial-gradient(rgba(0, 255, 8, 0.44),rgba(255, 217, 0, 0.566));
   top: 4.5rem;
   display: flex;
   flex-direction: column;

@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
 
-const RoundedBTN = (props) => {
+const RoundedBTN = ({goto,title}) => {
   return (
     <button>
       {
-        <Link to={props.goto}>
-          <h6>{props.title}</h6>
+        <Link to={goto}>
+          <h6>{title}</h6>
         </Link>
       }
     </button>

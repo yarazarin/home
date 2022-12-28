@@ -45,7 +45,7 @@
   }
   .question {
     z-index: 999;
-    top: 300px;
+    top: 200px;
   }
 
   @keyframes shimmy {
