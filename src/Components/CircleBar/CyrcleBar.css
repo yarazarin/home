@@ -5,6 +5,7 @@
   text-align: center;
   justify-content: center;
   align-content: center;
+  top: 40px;
 }
 .circle-container .rounded-container label {
   top: 60px;
