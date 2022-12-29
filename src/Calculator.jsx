@@ -8,7 +8,7 @@ const Calculator = () => {
   return (
     <>
       <BackToHomeBTN />
-      <UrHere pageName="Diary_Demo_Website" />
+      <UrHere pageName="Calculator_Demo_Website" />
       <SimpleCalculator />
       <Gap/>
       <Gap/>
