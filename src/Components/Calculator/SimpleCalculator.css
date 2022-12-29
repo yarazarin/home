@@ -1,0 +1,74 @@
+.container-calc {
+  top: 2rem;
+  flex-direction: column;
+  margin: 40px;
+  background-color: rgba(255, 0, 0, 0.679);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 1px 5px 5px rgba(255, 255, 255, 0.555);
+  min-height: 64.5vh;
+  position: relative;
+}
+@media screen and (max-width: 768px) {
+  .container-calc {
+    top: 4rem;
+    width: 100%;
+    margin: 0px;
+    border-radius: 0px;
+  }
+}
+
+.calculator-body {
+  max-width: 400px;
+  margin: auto;
+}
+
+.result {
+  height: 90px;
+  background-color: rgb(255, 0, 234);
+  width: 100%;
+  border-top-left-radius: 255px 20px;
+  border-top-right-radius: 20px 225px;
+  padding: 25px;
+}
+
+.result p {
+  font-size: 30px;
+  width: 100%;
+  height: 60px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.233);
+}
+
+.keypadbutton {
+  display: block;
+  background-color: rgb(255, 0, 234);
+  padding: 25px;
+  border-bottom-left-radius: 20px 255px;
+  border-bottom-right-radius: 225px 20px;
+}
+
+.keypadbutton button {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #67b5e3;
+  box-shadow: rgba(0, 0, 0, 0.603) 1px 30px 12px -10px;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 1.3rem;
+  transition: 100ms;
+  border-bottom-left-radius: 20px 255px;
+  border-bottom-right-radius: 225px 20px;
+  border-top-left-radius: 255px 20px;
+  border-top-right-radius: 20px 225px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  width: 25%;
+  height: 60px;
+}
+
+.keypadbutton button:hover {
+  box-shadow: rgb(0, 0, 0) 2px 8px 8px -5px;
+  transform: translate3d(0, 5px, 0);
+}
