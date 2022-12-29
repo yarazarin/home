@@ -10,7 +10,7 @@ const InputShortener = ({ setInputValue }) => {
 
   return (
     <div className="inputContainer">
-      <h1>URL <span>Shortener</span></h1>
+      <h1>Put the URL and use Copy to Clipboard button:</h1>
       <div>
         <input
           type="text"
