@@ -27,7 +27,7 @@ export default function CircleBar() {
             <RoundedBTN title="Short" goto="/ShortenerLink" />
           </li>
           <li className="rounded-childes">
-            <RoundedBTN title="Dear" goto="/DearDiary" />
+            <RoundedBTN title="Diary" goto="/DearDiary" />
           </li>
           <li className="rounded-childes">
             <RoundedBTN title="Calendar" goto="/GahNameh" />
