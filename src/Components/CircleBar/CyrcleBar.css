@@ -13,7 +13,7 @@
   position: relative;
   z-index: 1;
   font-size: 3rem;
-  color: rgba(253, 38, 38, 0.714);
+  color: rgba(0, 0, 0, 0.726);
   box-shadow: 0px 15px 0px 0px rgba(0, 0, 0, 0.395);
   border-bottom-right-radius: 25%;
   border-bottom-left-radius: 25%;
@@ -136,14 +136,14 @@
   height: 60px;
   line-height: 60px;
   color: rgb(255, 255, 255);
-  background: rgba(72, 131, 240, 0.7);
+  background: rgba(1, 9, 87, 0.514);
   border-radius: 50%;
   text-align: center;
   text-decoration: none;
   font-size: 20px;
   pointer-events: none;
   transition: 0.2s;
-  box-shadow: 0 0 0 5px rgba(255, 255, 255, 0.425);
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.979);
 }
 
 @media screen and (max-width: 968px) {

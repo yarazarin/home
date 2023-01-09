@@ -1,5 +1,4 @@
 import "./BackToHomeBTN.css";
-import water from "./water.gif";
 import { Link } from "react-router-dom";
 const BackToHomeBTN = () => {
   return (
@@ -39,7 +38,6 @@ const BackToHomeBTN = () => {
           </span>
         </button>
       </Link>
-      <img id="water-d" src={water}></img>
     </div>
   );
 };

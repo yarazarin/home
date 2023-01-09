@@ -7,10 +7,10 @@
   right: 15%;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
     rgba(255, 255, 255, 0),
     rgba(255, 255, 255, 0.438)
-  );
+  ); */
   border-radius: 15px;
   height: 20rem;
 }
