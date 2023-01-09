@@ -81,14 +81,6 @@ const Bubbles = () => {
       window.addEventListener("resize", function () {
         onResize();
       });
-      window.addEventListener(
-        "mousemove",
-        function (e) {
-          mouseX = e.clientX;
-          mouseY = e.clientY;
-        },
-        false
-      );
     });
   })();
 
