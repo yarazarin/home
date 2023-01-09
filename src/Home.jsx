@@ -15,7 +15,7 @@ const Home = () => {
       <CircleBar />
       <Updown />
       <Footer />
-      <Bubbles />
+      {/* <Bubbles /> */}
     </div>
   );
 };
