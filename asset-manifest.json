@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/home/static/css/main.66a4161b.css",
-    "main.js": "/home/static/js/main.363c807a.js",
+    "main.css": "/home/static/css/main.20fc48b6.css",
+    "main.js": "/home/static/js/main.5e1a17e2.js",
     "static/media/i11.jpg": "/home/static/media/i11.02bc33abd2c7b8924770.jpg",
     "static/media/i44.jpg": "/home/static/media/i44.df87640ade75d8e677c6.jpg",
     "static/media/i49.jpg": "/home/static/media/i49.a596cc139fdee804d388.jpg",
@@ -68,18 +68,17 @@
     "static/media/i52.jpg": "/home/static/media/i52.a2dfff8f9dfa36a34025.jpg",
     "static/media/RubikMarkerHatch-Regular.ttf": "/home/static/media/RubikMarkerHatch-Regular.0526a43151bfc38557b5.ttf",
     "static/media/i31.jpg": "/home/static/media/i31.4a33e021f99c99f1e0ca.jpg",
-    "static/media/water.gif": "/home/static/media/water.22adf91e161b041325a2.gif",
     "static/media/i00.jpg": "/home/static/media/i00.4334f72319990251c40f.jpg",
     "static/media/doll.jpg": "/home/static/media/doll.cd6f3ddc3e4bb63b9608.jpg",
     "static/media/Handlee-Regular.ttf": "/home/static/media/Handlee-Regular.54590e94ca812eefb4fd.ttf",
     "static/media/Med2.png": "/home/static/media/Med2.d57be686849f51be6b17.png",
     "static/media/Med.png": "/home/static/media/Med.00129529fb4933fbd4c2.png",
     "index.html": "/home/index.html",
-    "main.66a4161b.css.map": "/home/static/css/main.66a4161b.css.map",
-    "main.363c807a.js.map": "/home/static/js/main.363c807a.js.map"
+    "main.20fc48b6.css.map": "/home/static/css/main.20fc48b6.css.map",
+    "main.5e1a17e2.js.map": "/home/static/js/main.5e1a17e2.js.map"
   },
   "entrypoints": [
-    "static/css/main.66a4161b.css",
-    "static/js/main.363c807a.js"
+    "static/css/main.20fc48b6.css",
+    "static/js/main.5e1a17e2.js"
   ]
 }
