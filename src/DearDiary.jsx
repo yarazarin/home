@@ -14,6 +14,7 @@ const DearDiary = () => {
       <Footer />
     </div>
   );
+  
 };
 
 export default DearDiary;
