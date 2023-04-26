@@ -70,199 +70,199 @@ import Updown from "../UpDown/UpDown";
 function Iching() {
   const [rnd, setRnd] = useState(0);
   function cardIching() {
-    if (rnd === 0) {
+    if (rnd == 0) {
       return <img className="cardImg" src={i00} />;
     }
-    if (rnd === 1) {
+    if (rnd == 1) {
       return <img className="cardImg" src={i01} />;
     }
-    if (rnd === 2) {
+    if (rnd == 2) {
       return <img className="cardImg" src={i02} />;
     }
-    if (rnd === 3) {
+    if (rnd == 3) {
       return <img className="cardImg" src={i03} />;
     }
-    if (rnd === 4) {
+    if (rnd == 4) {
       return <img className="cardImg" src={i04} />;
     }
-    if (rnd === 5) {
+    if (rnd == 5) {
       return <img className="cardImg" src={i05} />;
     }
-    if (rnd === 6) {
+    if (rnd == 6) {
       return <img className="cardImg" src={i06} />;
     }
-    if (rnd === 7) {
+    if (rnd == 7) {
       return <img className="cardImg" src={i07} />;
     }
-    if (rnd === 8) {
+    if (rnd == 8) {
       return <img className="cardImg" src={i08} />;
     }
-    if (rnd === 9) {
+    if (rnd == 9) {
       return <img className="cardImg" src={i09} />;
     }
-    if (rnd === 10) {
+    if (rnd == 10) {
       return <img className="cardImg" src={i10} />;
     }
-    if (rnd === 11) {
+    if (rnd == 11) {
       return <img className="cardImg" src={i11} />;
     }
-    if (rnd === 12) {
+    if (rnd == 12) {
       return <img className="cardImg" src={i12} />;
     }
-    if (rnd === 13) {
+    if (rnd == 13) {
       return <img className="cardImg" src={i13} />;
     }
-    if (rnd === 14) {
+    if (rnd == 14) {
       return <img className="cardImg" src={i14} />;
     }
-    if (rnd === 15) {
+    if (rnd == 15) {
       return <img className="cardImg" src={i15} />;
     }
-    if (rnd === 16) {
+    if (rnd == 16) {
       return <img className="cardImg" src={i16} />;
     }
-    if (rnd === 17) {
+    if (rnd == 17) {
       return <img className="cardImg" src={i17} />;
     }
-    if (rnd === 18) {
+    if (rnd == 18) {
       return <img className="cardImg" src={i18} />;
     }
-    if (rnd === 19) {
+    if (rnd == 19) {
       return <img className="cardImg" src={i19} />;
     }
-    if (rnd === 20) {
+    if (rnd == 20) {
       return <img className="cardImg" src={i20} />;
     }
-    if (rnd === 21) {
+    if (rnd == 21) {
       return <img className="cardImg" src={i21} />;
     }
-    if (rnd === 22) {
+    if (rnd == 22) {
       return <img className="cardImg" src={i22} />;
     }
-    if (rnd === 23) {
+    if (rnd == 23) {
       return <img className="cardImg" src={i23} />;
     }
-    if (rnd === 24) {
+    if (rnd == 24) {
       return <img className="cardImg" src={i24} />;
     }
-    if (rnd === 25) {
+    if (rnd == 25) {
       return <img className="cardImg" src={i25} />;
     }
-    if (rnd === 26) {
+    if (rnd == 26) {
       return <img className="cardImg" src={i26} />;
     }
-    if (rnd === 27) {
+    if (rnd == 27) {
       return <img className="cardImg" src={i27} />;
     }
-    if (rnd === 28) {
+    if (rnd == 28) {
       return <img className="cardImg" src={i28} />;
     }
-    if (rnd === 29) {
+    if (rnd == 29) {
       return <img className="cardImg" src={i29} />;
     }
-    if (rnd === 30) {
+    if (rnd == 30) {
       return <img className="cardImg" src={i30} />;
     }
-    if (rnd === 31) {
+    if (rnd == 31) {
       return <img className="cardImg" src={i31} />;
     }
-    if (rnd === 32) {
+    if (rnd == 32) {
       return <img className="cardImg" src={i32} />;
     }
-    if (rnd === 33) {
+    if (rnd == 33) {
       return <img className="cardImg" src={i33} />;
     }
-    if (rnd === 34) {
+    if (rnd == 34) {
       return <img className="cardImg" src={i34} />;
     }
-    if (rnd === 35) {
+    if (rnd == 35) {
       return <img className="cardImg" src={i35} />;
     }
-    if (rnd === 36) {
+    if (rnd == 36) {
       return <img className="cardImg" src={i36} />;
     }
-    if (rnd === 37) {
+    if (rnd == 37) {
       return <img className="cardImg" src={i37} />;
     }
-    if (rnd === 38) {
+    if (rnd == 38) {
       return <img className="cardImg" src={i38} />;
     }
-    if (rnd === 39) {
+    if (rnd == 39) {
       return <img className="cardImg" src={i39} />;
     }
-    if (rnd === 40) {
+    if (rnd == 40) {
       return <img className="cardImg" src={i40} />;
     }
-    if (rnd === 41) {
+    if (rnd == 41) {
       return <img className="cardImg" src={i41} />;
     }
-    if (rnd === 42) {
+    if (rnd == 42) {
       return <img className="cardImg" src={i42} />;
     }
-    if (rnd === 43) {
+    if (rnd == 43) {
       return <img className="cardImg" src={i43} />;
     }
-    if (rnd === 44) {
+    if (rnd == 44) {
       return <img className="cardImg" src={i44} />;
     }
-    if (rnd === 45) {
+    if (rnd == 45) {
       return <img className="cardImg" src={i45} />;
     }
-    if (rnd === 46) {
+    if (rnd == 46) {
       return <img className="cardImg" src={i46} />;
     }
-    if (rnd === 47) {
+    if (rnd == 47) {
       return <img className="cardImg" src={i47} />;
     }
-    if (rnd === 48) {
+    if (rnd == 48) {
       return <img className="cardImg" src={i48} />;
     }
-    if (rnd === 49) {
+    if (rnd == 49) {
       return <img className="cardImg" src={i49} />;
     }
-    if (rnd === 50) {
+    if (rnd == 50) {
       return <img className="cardImg" src={i50} />;
     }
-    if (rnd === 51) {
+    if (rnd == 51) {
       return <img className="cardImg" src={i51} />;
     }
-    if (rnd === 52) {
+    if (rnd == 52) {
       return <img className="cardImg" src={i52} />;
     }
-    if (rnd === 53) {
+    if (rnd == 53) {
       return <img className="cardImg" src={i53} />;
     }
-    if (rnd === 54) {
+    if (rnd == 54) {
       return <img className="cardImg" src={i54} />;
     }
-    if (rnd === 55) {
+    if (rnd == 55) {
       return <img className="cardImg" src={i55} />;
     }
-    if (rnd === 56) {
+    if (rnd == 56) {
       return <img className="cardImg" src={i56} />;
     }
-    if (rnd === 57) {
+    if (rnd == 57) {
       return <img className="cardImg" src={i57} />;
     }
-    if (rnd === 58) {
+    if (rnd == 58) {
       return <img className="cardImg" src={i58} />;
     }
-    if (rnd === 59) {
+    if (rnd == 59) {
       return <img className="cardImg" src={i59} />;
     }
-    if (rnd === 60) {
+    if (rnd == 60) {
       return <img className="cardImg" src={i60} />;
     }
-    if (rnd === 61) {
+    if (rnd == 61) {
       return <img className="cardImg" src={i61} />;
     }
-    if (rnd === 62) {
+    if (rnd == 62) {
       return <img className="cardImg" src={i62} />;
     }
-    if (rnd === 63) {
+    if (rnd == 63) {
       return <img className="cardImg" src={i63} />;
     }
-    if (rnd === 64) {
+    if (rnd == 64) {
       return <img className="cardImg" src={i64} />;
     }
   }
