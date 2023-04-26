@@ -21,8 +21,7 @@
 
 .cardImg {
   height: 300px;
-  width: 200px;
-  border-radius: 1rem;
+  width: 300px;
 }
 
 .i-ching-btn {
@@ -50,6 +49,8 @@
 .randNum {
   color: rgb(255, 255, 255);
   font-size: 40px;
+  text-shadow: 2px 2px #ff0000;
+
 }
 
 .i-ching-btn:hover,
