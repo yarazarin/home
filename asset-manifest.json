@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/home/static/css/main.3ffe5a0b.css",
-    "main.js": "/home/static/js/main.119ff0a7.js",
-    "static/media/i00.png": "/home/static/media/i00.97a34833f9603324eb25.png",
+    "main.js": "/home/static/js/main.d7644f5e.js",
+    "static/media/i00.png": "/home/static/media/i00.d48d08f3af9b4935d4d8.png",
     "static/media/Dream.png": "/home/static/media/Dream.bf5220f2f8d0324a5cfa.png",
     "static/media/RubikMarkerHatch-Regular.ttf": "/home/static/media/RubikMarkerHatch-Regular.0526a43151bfc38557b5.ttf",
     "static/media/i14.png": "/home/static/media/i14.eee05b4fa3036690cfd5.png",
@@ -75,10 +75,10 @@
     "static/media/Med.png": "/home/static/media/Med.00129529fb4933fbd4c2.png",
     "index.html": "/home/index.html",
     "main.3ffe5a0b.css.map": "/home/static/css/main.3ffe5a0b.css.map",
-    "main.119ff0a7.js.map": "/home/static/js/main.119ff0a7.js.map"
+    "main.d7644f5e.js.map": "/home/static/js/main.d7644f5e.js.map"
   },
   "entrypoints": [
     "static/css/main.3ffe5a0b.css",
-    "static/js/main.119ff0a7.js"
+    "static/js/main.d7644f5e.js"
   ]
 }
